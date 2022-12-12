@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap");
+.Weather {
+  border: 3px solid #dadde1;
+  border-radius: 8px;
+  margin: 50px 0 50px;
+  padding: 30px;
+  font-family: "Roboto", sans-serif;
+}
+.Weather h1 {
+  color: #202124;
+  font-size: 30px;
+  line-height: 26px;
+}
+.Weather ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.Weather li {
+  font-weight: 30px;
+}
+.Weather img {
+  width: 100px;
+}
+.Weather form {
+  margin: 20px 0 40px;
+}
+.Weather .temperature {
+  font-size: 40px;
+  color: #202124;
+}
+.Weather .unit {
+  font-size: 22px;
+  position: relative;
+  line-height: 1;
+  top: -12px;
+}
+.Weather .conditions {
+  font-size: 18px;
+}
+.Weather span.strong {
+  font-weight: bold;
+  color: rgba(77, 72, 72, 0.936);
+}
+footer {
+  text-align: center;
+  font-family: "Roboto Mono", monospace;
+}
